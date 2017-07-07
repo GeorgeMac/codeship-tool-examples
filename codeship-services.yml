@@ -2,6 +2,7 @@
   build:
     image: 01demodockerfile
     dockerfile_path: 01.dockerfile/Dockerfile
+  default_cache_branch: "gm/branch-a-jetter-tag(staging-cache-with-fallback)"
   cached: true
 01demodockerfiledockercompose:
   build: ./01.dockerfile/
